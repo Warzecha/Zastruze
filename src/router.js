@@ -7,6 +7,8 @@ import Google from './views/Google.vue'
 import Morse from './views/Morse.vue'
 import Compiler from './views/Compiler.vue'
 import Picture from './views/Picture.vue'
+import Quotation from './views/Quotation.vue'
+import CommandLine from './views/CommandLine.vue'
 
 Vue.use(Router)
 
@@ -60,6 +62,22 @@ export default new Router({
       path: '/rybka',
       name: 'rybka',
       component: Picture
+    },
+    {
+      path: '/cytat',
+      name: 'cytat',
+      component: Quotation,
+      meta: {
+        title: 'Kto to?'
+      }
+    },
+    {
+      path: '/ada_lovlace',
+      name: 'cmd',
+      component: CommandLine,
+      meta: {
+        title: 'Wpisać w Wiersz Poleceń'
+      }
     }
     
   ]
