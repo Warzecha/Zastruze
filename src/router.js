@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Start from './views/Start.vue'
 import First from './views/First.vue'
+import FillTheGaps from './views/FillTheGaps.vue'
 
 Vue.use(Router)
 
@@ -18,7 +19,17 @@ export default new Router({
       path: '/pierwsza',
       name: 'first',
       component: First
+    },
+    {
+      path: '/fillthegaps',
+      name: 'fillthegaps',
+      component: FillTheGaps,
+      meta: {
+        title: 'K_MP_L_T_R'
+      }
     }
     
   ]
 })
+
+
