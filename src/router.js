@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Start from './views/Start.vue'
 import First from './views/First.vue'
 import FillTheGaps from './views/FillTheGaps.vue'
+import Compiler from './views/Compiler.vue'
 
 Vue.use(Router)
 
@@ -27,7 +28,12 @@ export default new Router({
       meta: {
         title: 'K_MP_L_T_R'
       }
-    }
+    },
+    {
+      path: '/kompilator',
+      name: 'kompilator',
+      component: Compiler
+    },
     
   ]
 })
