@@ -23,8 +23,8 @@ export default new Router({
       component: First
     },
     {
-      path: '/fillthegaps',
-      name: 'fillthegaps',
+      path: '/chomik',
+      name: 'chomik',
       component: FillTheGaps,
       meta: {
         title: 'K_MP_L_T_R'
