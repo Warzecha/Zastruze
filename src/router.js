@@ -4,6 +4,7 @@ import Start from './views/Start.vue'
 import First from './views/First.vue'
 import FillTheGaps from './views/FillTheGaps.vue'
 import Compiler from './views/Compiler.vue'
+import Picture from './views/Picture.vue'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       name: 'kompilator',
       component: Compiler
     },
+    {
+      path: '/rybka',
+      name: 'rybka',
+      component: Picture
+    }
     
   ]
 })
