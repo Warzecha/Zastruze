@@ -13,6 +13,9 @@
   text-align: center;
   color: #2c3e50;
   padding-top: 3rem;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #nav {
   padding: 30px;
@@ -29,11 +32,7 @@
 .title {
   color: #42b983;
 }
-h3, h2, h1 {
-  max-width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .lemur {
   max-width: 20%;
 }
@@ -41,6 +40,19 @@ h3, h2, h1 {
 .morse {
   font-size: 400%;
   color: #42b983;
+  display: block;
 }
+
+.green {
+  color:#42b983;
+  display: inline;
+}
+
+
+
+.inline {
+  display: inline;
+}
+
 
 </style>

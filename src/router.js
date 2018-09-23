@@ -7,6 +7,10 @@ import Google from './views/Google.vue'
 import Morse from './views/Morse.vue'
 import Compiler from './views/Compiler.vue'
 import Picture from './views/Picture.vue'
+import Names from './views/Names.vue'
+import Maps from './views/Maps.vue'
+import Photo from './views/Photo.vue'
+import Operation from './views/Operation.vue'
 
 Vue.use(Router)
 
@@ -30,6 +34,14 @@ export default new Router({
     {
       path: '/chomik',
       name: 'chomik',
+      component: Operation,
+      meta: {
+        title: 'Działanie'
+      }
+    },
+    {
+      path: '/277',
+      name: '277',
       component: FillTheGaps,
       meta: {
         title: 'K_MP_L_T_R'
@@ -44,6 +56,22 @@ export default new Router({
       }
     },
     {
+      path: '/ada_lovelave',
+      name: 'star_wars',
+      component: Cmd,
+      meta: {
+        title: 'Command Line'
+      }
+    },
+    {
+      path: '/grace_hopper',
+      name: 'names',
+      component: Names,
+      meta: {
+        title: 'Imiona'
+      }
+    },
+    {
       path: '/antananarywa',
       name: 'google',
       component: Google,
@@ -51,6 +79,23 @@ export default new Router({
         title: 'Google'
       }
     },
+    {
+      path: '/dknz',
+      name: 'maps',
+      component: Maps,
+      meta: {
+        title: 'Numer'
+      }
+    },
+    {
+      path: '/717851900',
+      name: 'photo',
+      component: Photo,
+      meta: {
+        title: 'Kto_to?'
+      }
+    },
+
     {
       path: '/kompilator',
       name: 'kompilator',
