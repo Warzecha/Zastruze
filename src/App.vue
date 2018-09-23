@@ -12,6 +12,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  padding-top: 3rem;
 }
 #nav {
   padding: 30px;
@@ -28,7 +29,7 @@
 .title {
   color: #42b983;
 }
-h3 {
+h3, h2, h1 {
   max-width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -36,4 +37,10 @@ h3 {
 .lemur {
   max-width: 20%;
 }
+
+.morse {
+  font-size: 400%;
+  color: #42b983;
+}
+
 </style>

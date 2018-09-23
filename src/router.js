@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Start from './views/Start.vue'
 import First from './views/First.vue'
 import FillTheGaps from './views/FillTheGaps.vue'
+import Google from './views/Google.vue'
+import Morse from './views/Morse.vue'
 import Compiler from './views/Compiler.vue'
 import Picture from './views/Picture.vue'
 
@@ -20,7 +22,10 @@ export default new Router({
     {
       path: '/pierwsza',
       name: 'first',
-      component: First
+      component: First,
+      meta: {
+        title: 'Madagaskar'
+      }
     },
     {
       path: '/chomik',
@@ -28,6 +33,22 @@ export default new Router({
       component: FillTheGaps,
       meta: {
         title: 'K_MP_L_T_R'
+      }
+    },
+    {
+      path: '/brzuszki',
+      name: 'morse',
+      component: Morse,
+      meta: {
+        title: ':)'
+      }
+    },
+    {
+      path: '/antananarywa',
+      name: 'google',
+      component: Google,
+      meta: {
+        title: 'Google'
       }
     },
     {
