@@ -100,7 +100,7 @@ export default new Router({
       component: Picture
     },
     {
-      path: '/cytat',
+      path: '/star_wars',
       name: 'cytat',
       component: Quotation,
       meta: {
@@ -108,7 +108,7 @@ export default new Router({
       }
     },
     {
-      path: '/ada_lovlace',
+      path: '/ada_lovelace',
       name: 'cmd',
       component: CommandLine,
       meta: {
