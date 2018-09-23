@@ -11,9 +11,10 @@
             <li>Używajcie '_' zamiast znaku spacja</li>
             <li>Nie używajcie polskich znaków ani wielkich liter.</li>
         </ol>
-        <a href="/Pierwsza">
+        <!-- <a href="/Pierwsza">
         <button>START</button>
-        </a>
+        </a> -->
+        <router-link to="/pierwsza"><button>START</button></router-link>
     </div>
     
 </template>
