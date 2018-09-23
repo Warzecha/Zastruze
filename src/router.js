@@ -7,6 +7,8 @@ import Google from './views/Google.vue'
 import Morse from './views/Morse.vue'
 import Compiler from './views/Compiler.vue'
 import Picture from './views/Picture.vue'
+import Quotation from './views/Quotation.vue'
+import CommandLine from './views/CommandLine.vue'
 import Names from './views/Names.vue'
 import Maps from './views/Maps.vue'
 import Photo from './views/Photo.vue'
@@ -56,14 +58,6 @@ export default new Router({
       }
     },
     {
-      path: '/ada_lovelave',
-      name: 'star_wars',
-      component: Cmd,
-      meta: {
-        title: 'Command Line'
-      }
-    },
-    {
       path: '/grace_hopper',
       name: 'names',
       component: Names,
@@ -95,7 +89,6 @@ export default new Router({
         title: 'Kto_to?'
       }
     },
-
     {
       path: '/kompilator',
       name: 'kompilator',
@@ -105,6 +98,22 @@ export default new Router({
       path: '/rybka',
       name: 'rybka',
       component: Picture
+    },
+    {
+      path: '/cytat',
+      name: 'cytat',
+      component: Quotation,
+      meta: {
+        title: 'Kto to?'
+      }
+    },
+    {
+      path: '/ada_lovlace',
+      name: 'cmd',
+      component: CommandLine,
+      meta: {
+        title: 'Wpisać w Wiersz Poleceń'
+      }
     }
     
   ]
