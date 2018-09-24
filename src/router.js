@@ -13,6 +13,7 @@ import Names from './views/Names.vue'
 import Maps from './views/Maps.vue'
 import Photo from './views/Photo.vue'
 import Operation from './views/Operation.vue'
+import Lovelace from './views/Lovelace.vue'
 
 Vue.use(Router)
 
@@ -109,6 +110,14 @@ export default new Router({
     },
     {
       path: '/ada_lovelace',
+      name: 'ada_lovelace',
+      component: Lovelace,
+      meta: {
+        title: 'Pierwszy programista'
+      }
+    },
+    {
+      path: '/cmd',
       name: 'cmd',
       component: CommandLine,
       meta: {
