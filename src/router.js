@@ -14,6 +14,7 @@ import Maps from './views/Maps.vue'
 import Photo from './views/Photo.vue'
 import Operation from './views/Operation.vue'
 import Lovelace from './views/Lovelace.vue'
+import Final from './views/Final.vue'
 
 Vue.use(Router)
 
@@ -123,7 +124,16 @@ export default new Router({
       meta: {
         title: 'Wpisać w Wiersz Poleceń'
       }
-    }
+    },
+    {
+      path: '/niels_bohr',
+      name: 'devtools',
+      component: Final,
+      meta: {
+        title: 'Zakładka Console'
+      }
+    },
+
     
   ]
 })
