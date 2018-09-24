@@ -88,7 +88,7 @@ export default new Router({
       name: 'photo',
       component: Photo,
       meta: {
-        title: 'Kto_to?'
+        title: 'Kto to?'
       }
     },
     {
@@ -106,7 +106,7 @@ export default new Router({
       name: 'cytat',
       component: Quotation,
       meta: {
-        title: 'Kto to?'
+        title: 'Kto to powiedział?'
       }
     },
     {
