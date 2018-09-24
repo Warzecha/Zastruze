@@ -45,14 +45,63 @@
 
 .green {
   color:#42b983;
-  display: inline;
 }
-
 
 
 .inline {
   display: inline;
 }
 
+.answer {
+  border: 1px solid rgba(221, 221, 221, 0.897);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.answer:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+img {
+  border: 1px solid rgba(221, 221, 221, 0.897);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.reversed {
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  font-style: italic;
+
+}
+
+.reversed:hover {
+  -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  font-style: italic;
+}
+
+.we {
+  border-radius: 50%;
+  max-width: 60%;
+  display: inline;
+}
+
+li {
+  font-size: 120%
+}
+
+button {
+  background-color: rgba(233, 75, 75, 0.767);
+  border-radius: 14px;
+  padding: 14px 40px;
+  color: whitesmoke;
+  font-size: 150%;
+}
+
+button:hover {
+  background-color: white;
+  color:tomato;
+}
 
 </style>
