@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>
-            Witajcie Zastrużanie! 
+            Witajcie! 
         </h2>
         <img src="./../assets/my.jpg" alt="my" class="we">
         <h2>Przedstawiamy Wam grę </h2>
@@ -11,7 +11,7 @@
         <ol>
             <li>Gra sprawdza głównie Waszą umiejętność wyszukiwania - korzystajcie z internetu do woli!</li>
             <li>Kiedy odkryjecie odpowiedź wpiszcie ją jako element URL. </li>
-            <li>Używajcie '_' zamiast znaku spacja</li>
+            <li>Używajcie '_' zamiast znaku spacji</li>
             <li>Nie używajcie polskich znaków ani wielkich liter.</li>
             <li>Jeśli bardzo utkniecie, zapytajcie o wskazówkę :)</li>
         </ol>
